@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Craig Douglas Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- import Material Icons from Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Import the Material stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+  <!--  Import my stylesheet  -->
+  <link rel="stylesheet" href="./app.css">
+</head>
+
+<body class="mdc-typography">
+  <header class="mdc-top-app-bar mdc-top-app-bar--short mdc-top-app-bar--short-has-action-item" style="top: 0px;">
+      <div class="mdc-top-app-bar__row">
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+          <a href="/#"
+          <span class="material-icons">
+            important_devices
+            </span></a><span
+          class="mdc-top-app-bar__title">Craig Douglas</span></section>
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+          <ul class="navList">
+            <li class="navListItem"><a class="navListLink mdc-typography--button" href="/">Work</a></li>
+            <li class="navListItem"><a class="navListLink mdc-typography--button" href="/about.html">About</a></li>
+            <li class="navListItem"><a class="navListLink mdc-typography--button" href="/contact.html">Contact</a></li>
+          </ul>
+        </section> 
+      </div>
+    </header>
+  <main class="contactPage">
+    <h1 class="mdc-typography--headline2 centered">Contact Me</h1>
+    <p class="contactText">If you would like to get in touch please use the form below </p>
+    <form class="contactForm">
+      <div class="mdc-text-field mdc-text-field--name">
+        <input type="text" id="my-name-field" class="mdc-text-field__input">
+        <label id="namegone" class="mdc-floating-label" for="my-name-field">Name</label>
+        <div class="mdc-line-ripple"></div>
+      </div>
+      <div class="mdc-text-field mdc-text-field--email">
+        <input type="text" id="my-email-field" class="mdc-text-field__input">
+        <label class="mdc-floating-label" for="my-email-field">Email</label>
+        <div class="mdc-line-ripple"></div>
+      </div>
+      <div class="mdc-text-field mdc-text-field--textarea mdc-text-field--message">
+        <div class="mdc-text-field-character-counter"> 0 / 500</div>
+        <textarea id="textarea" class="mdc-text-field__input" rows="8" cols="40" maxlength="500"></textarea>
+        <div class="mdc-notched-outline">
+          <div class="mdc-notched-outline__leading"></div>
+          <div class="mdc-notched-outline__notch">
+            <label for="textarea" class="mdc-floating-label">Start a conversation.....</label>
+          </div>
+          <div class="mdc-notched-outline__trailing"></div>
+        </div>
+      </div>
+      <button class="mdc-button mdc-button--raised submitButton">
+        <span class="mdc-button__label">Submit</span>
+        <i id="paperplaneicon" class="material-icons mdc-button__icon" aria-hidden="true">message</i>
+      </button>
+    </form>
+  </main>
+  <!-- import the Material javascript file -->
+  <script src="bundle.js" async></script>
+</body>
+
+</html>
