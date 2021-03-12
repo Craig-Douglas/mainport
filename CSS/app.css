@@ -169,9 +169,9 @@ p {
   width: 200px;
 }
 
-.spanner {
+.daytona {
   left: 33%;
-  top: 30%;
+  top: 20%;
   position: absolute;   
   color: rgb(0, 0, 0);
   opacity: 1;
@@ -345,4 +345,45 @@ li:hover {
   color-interpolation-filters: var(--headingwhite);
 }
 
+@media only screen and (max-width: 600px) {
+  .hoverimage{
+    left: 38%;
+    top: 42%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .coffeelogo {
+    left: 38%;
+    top: 30%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 123px;
+    width: 100px;
+  }
+  
+  .wplogo {
+    left: 30%;
+    top: 30%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .daytona {
+    left: 35%;
+    top: 24%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 120px;
+    width: 120px;
+  }
 
+}
