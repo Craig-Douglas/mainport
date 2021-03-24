@@ -17,3 +17,11 @@ if (document.querySelector('.mdc-text-field--name') !== null) {
   const ripple = new MDCRipple(button);
 }
 
+your_email = "cdouglas3579@gmail.com"	;
+emailSub = "Portfolio Enquiry";
+emailBody = document.getElementById("textarea").innerText; 
+var email_btn = document.getElementById('send_email');
+email_btn.addEventListener("click",function(e){
+    e.preventDefault();
+    location.href = "mailto:"+your_email+'&subject='+emailSub+'&body='+emailBody;
+});
