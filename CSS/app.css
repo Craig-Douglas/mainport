@@ -11,6 +11,20 @@
 
 
 
+.site_links {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.site_links:hover {
+  color: White;
+
+}
+
+.site_links:visited {
+  text-emphasis: none;
+}
 
 
 
@@ -270,6 +284,12 @@ img {
   border-radius: 5px;
 }
 
+.github_logo{
+  height:50px;
+  width:50px;
+  margin-bottom: 5px;
+}
+
 /* // About Page */
 .aboutMe {
   display: flex;
@@ -303,8 +323,19 @@ img {
   flex: 1;
 }
 
+#white_head {
+  color: var(--headingwhite);
+  padding: 70px;
+}
+
 #hiCraig {
   color: var(--headingwhite);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#webtitle {
+  color:#0e0e0e;
   font-size: 22px;
   font-weight: bold;
 }
@@ -324,14 +355,16 @@ img {
 #github_link {
   color:white;
   padding-right: 10px;
+  text-decoration: none;
+  font-size: 24px;
   }
 
 #github_link img {
   vertical-align: middle;
+  align-items: center;
   height: 30px;
-  width: 30px;
+  width: 36px;
   padding-right: 10px;
-
 }
 
 #github_link:hover, img:hover {
@@ -434,5 +467,6 @@ li:hover {
   #github_link img{
   height: 100px;
   }
+
 
 }
