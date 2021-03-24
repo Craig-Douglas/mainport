@@ -47,6 +47,10 @@ p {
   line-height: 1.8;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* // Reset List Styles */
 .navList {
   list-style: none;
@@ -54,6 +58,18 @@ p {
   padding-left: 0;
 }
 
+#techstack {
+  font-size: 2em;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  color:rgba(255, 255, 255, 0.801);
+
+}
+
+#flexfooter {
+  margin-top: 0 !important;
+}
 /* // Style the list items side by side */
 .navListItem {
   display: inline-block;
@@ -150,7 +166,7 @@ p {
 }
 
 .coffeelogo {
-  left: 38%;
+  left: 36%;
   top: 32%;
   position: absolute;   
   color: rgb(0, 0, 0);
@@ -160,23 +176,23 @@ p {
 }
 
 .wplogo {
-  left: 33%;
-  top: 30%;
+  left: 22%;
+  top: 38%;
   position: absolute;   
   color: rgb(0, 0, 0);
   opacity: 1;
-  height: 200px;
-  width: 200px;
+  height: 360px;
+  width: 360px;
 }
 
 .daytona {
-  left: 33%;
-  top: 20%;
+  left: 25%;
+  top: 25%;
   position: absolute;   
   color: rgb(0, 0, 0);
   opacity: 1;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 
 
@@ -199,6 +215,8 @@ p {
 }
 
 /* // Contact Form */
+
+
 .contactText {
   margin: 0 80px 32px;
   color: rgba(255, 255, 255, 0.801);
@@ -248,6 +266,10 @@ input {
   margin-top: 0 !important;
 }
 
+img {
+  border-radius: 5px;
+}
+
 /* // About Page */
 .aboutMe {
   display: flex;
@@ -256,6 +278,7 @@ input {
   align-items: center;
   flex-direction: column;
   background-color: var(--mint) ;
+  border-radius: 5px;
 }
 
 .aboutMe figure {
@@ -264,6 +287,7 @@ input {
 
 .aboutMe img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .material-icons {
@@ -291,6 +315,27 @@ input {
 
 #new {
   background-color: black;
+}
+
+#cddevpic {
+  padding: 10px 10px;
+}
+
+#github_link {
+  color:white;
+  padding-right: 10px;
+  }
+
+#github_link img {
+  vertical-align: middle;
+  height: 30px;
+  width: 30px;
+  padding-right: 10px;
+
+}
+
+#github_link:hover, img:hover {
+  color:#0e0e0e;
 }
 
 @media (min-width: 600px) {
@@ -367,23 +412,27 @@ li:hover {
   }
   
   .wplogo {
-    left: 30%;
+    left: 10%;
     top: 30%;
     position: absolute;   
     color: rgb(0, 0, 0);
     opacity: 1;
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
   }
   
   .daytona {
-    left: 35%;
+    left: 28%;
     top: 24%;
     position: absolute;   
     color: rgb(0, 0, 0);
     opacity: 1;
-    height: 120px;
-    width: 120px;
+    height: 200px;
+    width: 200px;
+  }
+
+  #github_link img{
+  height: 100px;
   }
 
 }
