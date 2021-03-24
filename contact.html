@@ -34,7 +34,8 @@
   <main class="contactPage">
     <h1 class="mdc-typography--headline2 centered">Contact Me</h1>
     <p class="contactText">If you would like to get in touch please use the form below </p>
-    <form class="contactForm">
+    <form  method=”POST” target="_top" enctype="multipart/form-data”
+    name="EmailForm” class="contactForm">
       <div class="mdc-text-field mdc-text-field--name">
         <input type="text" id="my-name-field" class="mdc-text-field__input">
         <label id="namegone" class="mdc-floating-label" for="my-name-field">Name</label>
@@ -55,15 +56,26 @@
           </div>
           <div class="mdc-notched-outline__trailing"></div>
         </div>
-      </div>
-      <button class="mdc-button mdc-button--raised submitButton">
+      </div>  
+      <button id="send_email" class="mdc-button mdc-button--raised submitButton">
         <span class="mdc-button__label">Submit</span>
         <i id="paperplaneicon" class="material-icons mdc-button__icon" aria-hidden="true">message</i>
       </button>
     </form>
   </main>
+
+  <footer>
+    <ul id="flexfooter" class="flex-container">
+      <li class="flex-item"><img src="/img/tech-stack/icons8-outgoing-call-24.png"></li>
+      <li class="flex-item">+447799533390</li>
+  
+      <li class="flex-item"><img src="/img/tech-stack/icons8-email-24.png"></li>
+      <li class="flex-item">cdouglas3579@gmail.com</li>
+     
+    </ul>
+</footer>
   <!-- import the Material javascript file -->
-  <script src="bundle.js" async></script>
+  <script src="app.js" async></script>
 </body>
 
 </html>

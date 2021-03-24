@@ -29,20 +29,20 @@
             <li class="navListItem"><a class="navListLink mdc-typography--button" href="/contact.html">Contact</a></li>
           </ul>
         </section> 
-      </div>
+      </div class="flex-container">
     </header>
-    <main>
-      <h1 class="mdc-typography--headline2 centered">About Me</h1>
+    <main class=>
+      <h1 class="mdc-typography--headline2 centered">CD DEV PORTFOLIO</h1>
       <div class="aboutMe">
-        <figure class="selfPortrait">
-          <img src="/img/joe-shields-dLij9K4ObYY-unsplash.jpg" alt="">
+        <figure id="cddevpic" class="selfPortrait">
+          <a href="https://niketrail2launchsite.netlify.app/">
+          <img src="/img/nikepegsummarypic.png" alt="image of portfolio site"></a>
         </figure>
     
-        <p id="aboutpara" ><span id="hiCraig">I'm Craig Douglas.</span><br><br>
-            I am a front-end developer passionate about bringing your designs to life using the latest web technologies.<br><br>
-            I enjoy building visually appealing UI/UX experiences for my clients <br><br>
-            If you would like to collaborate on a project please get in touch<br><br>
-            If you would prefer to leave the project in my hands I can also provide a full design & development service 
+        <p id="aboutpara" ><span id="hiCraig">Wordpress Portfolio</span><br><br>
+            Web Developer Portfolio devloped on Wordpress using Elementor.  The Astra theme was utilised and edited accordingly using html, css and  bootstrap <br><br>
+            I enjoyed utilising my own UI design on this site.  Personally designed company logo, colour/font scheme.  <br><br>
+            Used Bluehost for the domain and used WP and Elementor to create and edit the project.
             </br><br></p>
       </div>
     </main>
@@ -50,7 +50,7 @@
         <ul class="flex-container">
           <li class="flex-item"><img src="/img/tech-stack/icons8-html-5-50.png"></li>
           <li class="flex-item"><img src="/img/tech-stack/icons8-css-50.png"></li>
-          <li class="flex-item"><img src="/img/tech-stack/icons8-js-50.png"></li>
+          <li class="flex-item"><img src="/img/tech-stack/icons8-js-50.png"></li>   
           <li class="flex-item"><img src="/img/tech-stack/icons8-react-50.png"></li>
           <li class="flex-item"><img src="/img/tech-stack/icons8-sass-50.png"></li>
           <li class="flex-item"><img src="/img/tech-stack/icons8-bootstrap-50.png"></li>
