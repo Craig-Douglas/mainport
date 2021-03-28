@@ -581,3 +581,50 @@ li:hover {
 
 
 }
+
+@media (min-width: 375px)   {
+
+  .daytona {
+    left: 24%;
+    top: 16%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 150px;
+    width: 150px;
+  }
+
+  .hoverimage{
+    left: 32%;
+    top: 26%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 120px;
+    width: 120px;
+  }
+  
+  .coffeelogo {
+    left: 33%;
+    top: 20%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 76px;
+    width: 80px;
+  }
+  
+  .wplogo {
+    left: 22%;
+    top: 26%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 150px;
+    width: 150px;
+  }
+
+
+
+
+}
