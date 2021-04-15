@@ -483,6 +483,26 @@ li:hover {
     width: 200px;
   }
 
+  .grounduplogo {
+    left: 20%;
+    top: 12%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 200px;
+    width: 200px;
+  }
+  
+  .spannerlogo {
+    left: 38%;
+    top: 25%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 100px;
+    width: 100px;
+  }
+
   #github_link img{
   height: 100px;
   }
@@ -500,7 +520,7 @@ li:hover {
 
 
   .hoverimage{
-    left: 38%;
+    left: 35%;
     top: 42%;
     position: absolute;   
     color: rgb(0, 0, 0);
