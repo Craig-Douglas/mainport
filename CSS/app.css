@@ -209,6 +209,25 @@ a {
   width: 300px;
 }
 
+.grounduplogo {
+  left: 25%;
+  top: 20%;
+  position: absolute;   
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  height: 290px;
+  width: 290px;
+}
+
+.spannerlogo {
+  left: 35%;
+  top: 33%;
+  position: absolute;   
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  height: 150px;
+  width: 150px;
+}
 
 /* // Image List */
 .imageList {
@@ -671,5 +690,7 @@ li:hover {
     height: 150px;
     width: 150px;
   }
+
+
 
 }
