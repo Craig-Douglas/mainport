@@ -221,6 +221,16 @@ a {
 
 .spannerlogo {
   left: 35%;
+  top: 30%;
+  position: absolute;   
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  height: 150px;
+  width: 150px;
+}
+
+.dostufflogo {
+  left: 38%;
   top: 33%;
   position: absolute;   
   color: rgb(0, 0, 0);
@@ -503,6 +513,16 @@ li:hover {
     width: 100px;
   }
 
+  .dostufflogo {
+    left: 38%;
+    top: 33%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 150px;
+    width: 150px;
+  }
+
   #github_link img{
   height: 100px;
   }
@@ -540,7 +560,7 @@ li:hover {
   }
   
   .wplogo {
-    left: 20%;
+    left: 30%;
     top: 32%;
     position: absolute;   
     color: rgb(0, 0, 0);
@@ -558,6 +578,37 @@ li:hover {
     height: 200px;
     width: 200px;
   }
+
+  .grounduplogo {
+    left: 27%;
+    top: 22%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 350px;
+    width: 350px;
+  }
+
+  .dostufflogo {
+    left: 38%;
+    top: 33%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 200px;
+    width: 200px;
+  }
+
+  .coffeelogo {
+    left: 38%;
+    top: 30%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 200px;
+    width: 300px;
+  }
+  
 
 }
 
@@ -579,43 +630,63 @@ li:hover {
 
 
   .hoverimage{
+    left: 34%;
+    top: 40%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 260px;
+    width: 260px;
+  }
+  
+  .coffeelogo {
     left: 35%;
-    top: 44%;
+    top: 24%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 172px;
+    width: 185px;
+  }
+  
+  .wplogo {
+    left: 12%;
+    top: 32%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 450px;
+    width: 450px;
+  }
+  
+  .daytona {
+    left: 20%;
+    top: 20%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 360px;
+    width: 360px;
+  }
+
+  .dostufflogo {
+    left: 38%;
+    top: 28%;
     position: absolute;   
     color: rgb(0, 0, 0);
     opacity: 1;
     height: 200px;
     width: 200px;
   }
-  
-  .coffeelogo {
-    left: 38%;
-    top: 30%;
-    position: absolute;   
-    color: rgb(0, 0, 0);
-    opacity: 1;
-    height: 133px;
-    width: 140px;
-  }
-  
-  .wplogo {
-    left: 20%;
-    top: 32%;
+
+  .grounduplogo {
+    left: 22%;
+    top: 18%;
     position: absolute;   
     color: rgb(0, 0, 0);
     opacity: 1;
     height: 350px;
     width: 350px;
-  }
-  
-  .daytona {
-    left: 24%;
-    top: 28%;
-    position: absolute;   
-    color: rgb(0, 0, 0);
-    opacity: 1;
-    height: 300px;
-    width: 300px;
   }
 
 
