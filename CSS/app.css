@@ -734,6 +734,16 @@ li:hover {
     width: 150px;
   }
 
+  .dostufflogo {
+    left: 38%;
+    top: 28%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 200px;
+    width: 200px;
+  }
+
 
 
 
@@ -780,6 +790,16 @@ li:hover {
     opacity: 1;
     height: 150px;
     width: 150px;
+  }
+
+  .dostufflogo {
+    left: 33%;
+    top: 16%;
+    position: absolute;   
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 130px;
+    width: 130px;
   }
 
 
