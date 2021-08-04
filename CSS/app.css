@@ -157,10 +157,9 @@ a {
 }
 
 .mdc-card__primary-action:hover {
-  opacity: .04;
-  transition: 0.5s;
+  opacity: .0;
+  transition: 0.8s;
 
-  
 }
 
 .navListLink:hover{
@@ -239,6 +238,16 @@ a {
   width: 150px;
 }
 
+.nikeemail-logo {
+  left: 38%;
+  top: 18%;
+  position: absolute;   
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  height: 150px;
+  width: 150px;
+}
+
 /* // Image List */
 .imageList {
   @include mdc-image-list-masonry-columns(1);
@@ -253,11 +262,6 @@ a {
   will-change: $mdc-elevation-property; */
 }
 
-.listLink:hover {
-/*   @include mdc-elevation(5); */
-}
-
-/* // Contact Form */
 
 
 .contactText {
@@ -744,7 +748,11 @@ li:hover {
     width:20px;
     margin-bottom: 5px;
   }
-
+  .nikeemail-logo {
+  
+    height: 100px;
+    width: 180px;
+  }
 
 
 
@@ -815,6 +823,59 @@ li:hover {
     padding-bottom: 5px;
     }
 
+    .nikeemail-logo {
+      top:10%;
+      height: 80px;
+      width: 80px;
+      padding-bottom:20px;
+    }
 
 
-}
+
+}   
+
+
+
+
+
+.shine {
+  background-image: linear-gradient(to right, var(--black) 0%, var(--black)39%, var(--mint) 40%, var(--black) 44%, var(--black) 100%);
+  display: flex;
+  flex-direction: row;
+  animation-duration: 6s;
+  animation-fill-mode: forwards; 
+  animation-iteration-count: infinite;
+  animation-name: titleShimmer;
+  animation-timing-function: linear;
+  display:flex;
+  font-size: 80px;
+  align-items: center;
+  border-radius: 10%;
+  height: 64px;
+  width: 200px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding-left: 20px;
+  } 
+
+
+  .container_title h1 {
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+
+
+
+ 
+
+  @keyframes titleShimmer {
+    0% {
+      background-position: -500px 0;
+    }
+    
+    100% {
+      background-position: 500px 0; 
+    }
+  }
+  
