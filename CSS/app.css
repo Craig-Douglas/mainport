@@ -839,14 +839,15 @@ li:hover {
 
 
 .shine {
-  background-image: linear-gradient(to right, var(--black) 0%, var(--black)39%, var(--mint) 40%, var(--black) 44%, var(--black) 100%);
   display: flex;
   flex-direction: row;
-  animation-duration: 6s;
+  /*animation-duration: 6s;
   animation-fill-mode: forwards; 
   animation-iteration-count: infinite;
   animation-name: titleShimmer;
-  animation-timing-function: linear;
+  background-image: linear-gradient(to right, var(--black) 0%, var(--black)39%, var(--mint) 40%, var(--black) 44%, var(--black) 100%);
+
+  animation-timing-function: linear;*/
   display:flex;
   font-size: 80px;
   align-items: center;
